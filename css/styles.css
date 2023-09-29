@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.location {
+  border: solid 2px black;
+  background-color: aliceblue;
+}
